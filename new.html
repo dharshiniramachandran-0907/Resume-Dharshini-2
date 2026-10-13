@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <button id="show">show </button>
+        <label id="showlabel"></label>
+        <!-- <script>
+            var const=0;
+            const button=document.getElementById('count');
+            const label=document.getElementById('plus');
+            button.addEventListener('click', function(){
+                count=count
+                label.textContent = `Counter : ${count}`
+                 
+            })
+        </script> -->
+        <script>
+            var boolean;
+            const button =document.getElementById('show');
+            const label=document.getElementById('showlabel');
+            button.addEventListener('click',function(){
+                boolean = !boolean;
+                label.textContent = `${boolean?"Label is variable":""}`
+            });
+        </script>
+    </body>
+</html>
