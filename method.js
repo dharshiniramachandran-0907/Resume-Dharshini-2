@@ -23,7 +23,6 @@ const students = [
     //console.log("Not found");
 //}
 
-
 function makeGreeter(greeting) {
     return function(name) {
         return `${greeting} ${name}`;
