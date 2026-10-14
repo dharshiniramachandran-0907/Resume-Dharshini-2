@@ -13,7 +13,7 @@
 const students = [
     { name: "Asha", marks: 85 },
     { name: "Kiran", marks: 92 },
-    { name: "Ravi", marks: 78 }
+    { name: "Ravi", marks: 78 }    
 ];
 
 //const student = students.find(s => s.name === "Kiran");
